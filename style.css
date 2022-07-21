@@ -1,3 +1,4 @@
+
 .orange-color{
     color: orangered;
 
@@ -6,11 +7,18 @@ body{
     font-family: 'Poppins', sans-serif
 }
 
+/* First Section */
+
+.first-section{
+    background-image: url(images/images/shapes/Group\ 8448.png);
+    margin: 0;
+}
+
 .flexible-container{
     display: flex;
 
 }
-.order-food{
+.order-food-btn{
     text-decoration: none;
     
     padding: 11px 27px;
@@ -18,20 +26,7 @@ body{
     background-image: linear-gradient(orange,red);
     color: white;
     font: 700px;
-   
     line-height: 80px;
-}
-
-.contact-us{
-    text-decoration: none;
-    
-    padding: 11px 27px;
-    border-radius: 25px;
-    background-image: linear-gradient(orange,red);
-    color: white;
-    font: 700px;
-   
-    line-height: 150px;
 }
 
 .half-width{
@@ -42,36 +37,35 @@ body{
 .half-width img{
     width: 80%;
 }
-.eat-healthy{
-    background-image: url(images/images/shapes/Group\ 8448.png);
-    margin: 0;
-}
 
-.about-us{
+
+
+    /* Second Section Part */
+
+.second-section{
     
     margin-top: 100px;
     background-image: url(images/images/shapes/Frame\ 57.jpg);
 }
 
-    .tab {
-        margin-left: 40%;
-       }
+.contact-us-btn{
+    text-decoration: none;
+    
+    padding: 11px 27px;
+    border-radius: 25px;
+    background-image: linear-gradient(orange,red);
+    color: white;
+    font: 700px;
+   
+    line-height: 150px;
+}  
 
 
-.align{
+.align-of-my-recipies{
     text-align: center;
     margin-bottom: 35px;
 }
-.half-change{
-   
-    width: 40%;
-    margin-left: 2%;
-    padding-left: 47px;
-    padding-right: 50px;
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 30px;
-    margin-bottom: 50px;
-}
+
 .food-div-father{
     display: flex;
     padding: 10px;
@@ -93,22 +87,13 @@ body{
     width: 90%;
     padding: 5%;
 }
-.half-change img{
-    width: 80%;
-    margin: 10%;
-    
-}
-
-
-.space{
-    line-height: 50%;
-}
+  
+/* Social Media Followers Sector */
 
 .social-media-followers{
     margin: 5% 5%;
     margin-left: 10%;
     text-align: center;
-    
 }
 .social-media{
     display: flex;
@@ -129,6 +114,7 @@ body{
     height: 200px;
     text-align: center;
     margin-bottom: 0%;
+    margin: 0%;
 }
 
 footer p{

@@ -5,11 +5,8 @@
 body{
     font-family: 'Poppins', sans-serif
 }
-.flexible-container{
-    display: flex;
 
-}
-.eat-healthy{
+.flexible-container{
     display: flex;
 
 }
@@ -69,11 +66,32 @@ body{
    
     width: 40%;
     margin-left: 2%;
-    padding-left: 50px;
+    padding-left: 47px;
     padding-right: 50px;
     box-shadow: 10px 10px 40px gray;
     border-radius: 30px;
     margin-bottom: 50px;
+}
+.food-div-father{
+    display: flex;
+    padding: 10px;
+}
+.food-padding{
+    margin-top: -45px;
+    padding: 5px;
+    margin-left: 3%;
+}
+.food-img-div{
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 5px 5px 15px gray;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.food-img-div img{
+    width: 90%;
+    padding: 5%;
 }
 .half-change img{
     width: 80%;
@@ -81,11 +99,12 @@ body{
     
 }
 
+
 .space{
     line-height: 50%;
 }
 
-.flexible{
+.social-media-followers{
     margin: 5% 5%;
     margin-left: 10%;
     text-align: center;
@@ -101,6 +120,10 @@ body{
      border-radius: 15px;
      margin-bottom: 40px;
  }
+
+
+
+ /* Footer Section */
  footer{
     background-color: black;
     height: 200px;
@@ -110,7 +133,7 @@ body{
 
 footer p{
     font-size: 10px;
-    color: rgba(255, 255, 255, 0.747);
+    color: rgba(170, 162, 162, 0.747);
 }
 .footer-eat{
     color: orangered;
